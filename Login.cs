@@ -16,7 +16,7 @@ namespace Belshifa
     {
 	//Database user and Password 
         public static string patientemail; 
-        string ordb = "data source=orcl; user id=Belshifa; password=123;";
+        string ordb = "data source=orcl; user id=Belshifa; password=123;"; 
         OracleConnection conn;
         public Login()
         {
