@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Belshifa 
 {
-    public partial class Belshifa : Form
+    public partial class Belshifa : Form 
     {
         public Belshifa()
         {
