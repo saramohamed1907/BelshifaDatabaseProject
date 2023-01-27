@@ -40,7 +40,7 @@ namespace Belshifa
 	//If mail or bassword is empty show message  
             if (textBox1.Text.Equals("") || textBox4.Text.Equals("")) 
                 MessageBox.Show("Pleaase Fill All Fields"); 
-	//if mail and password are (admin , admin)  login as admin
+	//if mail and password are (admin , admin)  login as admin 
            else if (textBox1.Text.Equals("admin") || textBox4.Text.Equals("admin"))
             {
                 Dispose();
