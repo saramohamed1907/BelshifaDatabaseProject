@@ -12,7 +12,7 @@ namespace Belshifa
 {
     public partial class Choose_Report : Form 
     {
-        public Choose_Report()
+        public Choose_Report() 
         {
             InitializeComponent();
         }
