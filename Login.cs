@@ -45,7 +45,7 @@ namespace Belshifa
             {
                 Dispose(); 
                 Choose_Report c = new Choose_Report(); 
-                c.Show();
+                c.Show(); 
             }
 		//if mail and password are not (admin , admin)  search on database for these data
             else
