@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Belshifa
 {
-    public partial class Choose_Report : Form
+    public partial class Choose_Report : Form 
     {
         public Choose_Report()
         {
