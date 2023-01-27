@@ -43,7 +43,7 @@ namespace Belshifa
 	//if mail and password are (admin , admin)  login as admin 
            else if (textBox1.Text.Equals("admin") || textBox4.Text.Equals("admin"))
             {
-                Dispose();
+                Dispose(); 
                 Choose_Report c = new Choose_Report();
                 c.Show();
             }
