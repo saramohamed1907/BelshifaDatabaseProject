@@ -73,7 +73,7 @@ namespace Belshifa
                 if (mail == "" || pass == "") 
                 {
                     textBox1.Clear(); 
-                    textBox4.Clear();
+                    textBox4.Clear(); 
                 }
                 else
                 {
