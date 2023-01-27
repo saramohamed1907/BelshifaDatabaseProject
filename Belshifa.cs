@@ -34,7 +34,7 @@ namespace Belshifa
             r.Show(); 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e) 
         {
             Login l = new Login();
             l.Show();      
