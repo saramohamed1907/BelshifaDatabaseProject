@@ -20,7 +20,7 @@ namespace Belshifa
         private void button1_Click(object sender, EventArgs e) 
         {
             Search_Category_Form s = new Search_Category_Form(); 
-            s.Show();
+            s.Show(); 
         }
 
         private void button2_Click(object sender, EventArgs e)
