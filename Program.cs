@@ -16,7 +16,7 @@ namespace Belshifa
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false); 
-            Application.Run(new Belshifa()); 
+            Application.Run(new Belshifa());  
         }
     }
 }
