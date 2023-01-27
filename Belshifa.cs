@@ -12,9 +12,9 @@ namespace Belshifa
 {
     public partial class Belshifa : Form 
     {
-        public Belshifa() 
+        public Belshifa()  
         {
-            InitializeComponent();
+            InitializeComponent(); 
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
