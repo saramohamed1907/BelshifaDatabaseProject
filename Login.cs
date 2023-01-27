@@ -66,7 +66,7 @@ namespace Belshifa
                     pass = Convert.ToString(cmd.Parameters["Password"].Value.ToString());
                 }
 		//if not found
-                catch
+                catch 
                 {
                     MessageBox.Show("Email or Password Wrong");
                 }
