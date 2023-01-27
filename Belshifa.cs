@@ -30,7 +30,7 @@ namespace Belshifa
         private void button1_Click(object sender, EventArgs e) 
         {
 
-            Register r = new Register();
+            Register r = new Register(); 
             r.Show();
         }
 
