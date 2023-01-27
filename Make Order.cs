@@ -12,7 +12,7 @@ using Oracle.DataAccess.Types;
 
 namespace Belshifa
 {
-    public partial class Make_Order : Form
+    public partial class Make_Order : Form 
     {
         string ordb = "data source=orcl; user id=Belshifa; password=123;";
         public static int i;
