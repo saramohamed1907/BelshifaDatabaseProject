@@ -60,7 +60,7 @@ namespace Belshifa
                 cmd.Parameters.Add("Password", OracleDbType.Varchar2, 20000).Direction = ParameterDirection.Output;
                 try
                 {
-                    cmd.ExecuteNonQuery();
+                    cmd.ExecuteNonQuery(); 
                     mail = Convert.ToString(cmd.Parameters["Email"].Value.ToString());
                     patientemail = Convert.ToString(cmd.Parameters["Email"].Value.ToString());
                     pass = Convert.ToString(cmd.Parameters["Password"].Value.ToString());
