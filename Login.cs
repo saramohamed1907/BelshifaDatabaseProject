@@ -44,7 +44,7 @@ namespace Belshifa
            else if (textBox1.Text.Equals("admin") || textBox4.Text.Equals("admin"))
             {
                 Dispose(); 
-                Choose_Report c = new Choose_Report();
+                Choose_Report c = new Choose_Report(); 
                 c.Show();
             }
 		//if mail and password are not (admin , admin)  search on database for these data
