@@ -38,7 +38,7 @@ namespace Belshifa
         {
             Login l = new Login();
             l.Show();      
-        }
+        } 
 
         private void Main_Load(object sender, EventArgs e)
         {
