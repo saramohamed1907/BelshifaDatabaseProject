@@ -51,7 +51,7 @@ namespace Belshifa
             else
             {
                 OracleCommand cmd = new OracleCommand(); 
-                cmd.Connection = conn;
+                cmd.Connection = conn;  
                 cmd.CommandText = "GetUser";
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.Add("mail", textBox1.Text);
