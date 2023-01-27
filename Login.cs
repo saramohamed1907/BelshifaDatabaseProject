@@ -94,7 +94,7 @@ namespace Belshifa
 
         private void Login_Load(object sender, EventArgs e) 
         {
-            conn = new OracleConnection(ordb);
+            conn = new OracleConnection(ordb); 
             conn.Open();
         }
     }
