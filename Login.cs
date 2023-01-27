@@ -70,7 +70,7 @@ namespace Belshifa
                 {
                     MessageBox.Show("Email or Password Wrong"); 
                 }
-                if (mail == "" || pass == "")
+                if (mail == "" || pass == "") 
                 {
                     textBox1.Clear();
                     textBox4.Clear();
