@@ -14,7 +14,7 @@ namespace Belshifa
     {
         public Choose_Report() 
         {
-            InitializeComponent();
+            InitializeComponent(); 
         }
 
         private void button1_Click(object sender, EventArgs e)
