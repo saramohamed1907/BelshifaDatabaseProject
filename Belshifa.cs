@@ -12,7 +12,7 @@ namespace Belshifa
 {
     public partial class Belshifa : Form 
     {
-        public Belshifa()
+        public Belshifa() 
         {
             InitializeComponent();
         }
