@@ -68,7 +68,7 @@ namespace Belshifa
 		//if not found
                 catch 
                 {
-                    MessageBox.Show("Email or Password Wrong");
+                    MessageBox.Show("Email or Password Wrong"); 
                 }
                 if (mail == "" || pass == "")
                 {
