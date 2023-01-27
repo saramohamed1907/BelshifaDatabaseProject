@@ -50,7 +50,7 @@ namespace Belshifa
 		//if mail and password are not (admin , admin)  search on database for these data
             else
             {
-                OracleCommand cmd = new OracleCommand();
+                OracleCommand cmd = new OracleCommand(); 
                 cmd.Connection = conn;
                 cmd.CommandText = "GetUser";
                 cmd.CommandType = CommandType.StoredProcedure;
