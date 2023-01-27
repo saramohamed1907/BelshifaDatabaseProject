@@ -17,7 +17,7 @@ namespace Belshifa
             InitializeComponent(); 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e) 
         {
             Search_Category_Form s = new Search_Category_Form();
             s.Show();
