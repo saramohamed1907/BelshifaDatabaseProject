@@ -25,7 +25,7 @@ namespace Belshifa
 
         private void button2_Click(object sender, EventArgs e) 
         {
-            ROD_Form r = new ROD_Form();
+            ROD_Form r = new ROD_Form(); 
             r.Show();
         }
     }
