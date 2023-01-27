@@ -79,7 +79,7 @@ namespace Belshifa
                 {
                     Dispose(); 
                     Make_Order m = new Make_Order(); 
-                    m.Show();
+                    m.Show(); 
                 }
 
             }
