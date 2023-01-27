@@ -37,7 +37,7 @@ namespace Belshifa
         private void button1_Click(object sender, EventArgs e)
         {
             string mail = "", pass = ""; 
-	//If mail or bassword is empty show message 
+	//If mail or bassword is empty show message  
             if (textBox1.Text.Equals("") || textBox4.Text.Equals(""))
                 MessageBox.Show("Pleaase Fill All Fields");
 	//if mail and password are (admin , admin)  login as admin
